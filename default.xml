@@ -494,7 +494,7 @@
   <project path="tools/motodev" name="platform/tools/motodev" groups="notdefault,motodev" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
 -->
-  <project path="vendor/aokp" name="AOKP/vendor_aokp" remote="aokp" revision="jb-mr2" />
+  <project path="vendor/aokp" name="KangProject/vendor_aokp" remote="KangProject" revision="jb-mr2" />
   <project path="vendor/aokp/bot" name="AOKP/pseudo_buildbot" remote="aokp" revision="jb-mr2" />
   <project path="vendor/htc" name="AOKP/vendor_htc" remote="aokp" revision="jb-mr2" groups="notdefault,vendor,htc" />
   <project path="vendor/lge" name="AOKP/vendor_lge" remote="aokp" revision="jb-mr2" groups="notdefault,vendor,lge" />
