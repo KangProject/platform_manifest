@@ -17,6 +17,9 @@
            fetch="git://git.omapzoom.org/"
            review="http://review.omapzoom.org/" />
 
+  <remote  name="KangProject"
+            fetch="https://github.com/KangProject" />
+
   <default revision="refs/tags/android-4.3.1_r1"
            remote="aosp"
            sync-j="4" />
@@ -292,7 +295,7 @@
   <project path="external/zlib" name="CyanogenMod/android_external_zlib" remote="cm" revision="cm-10.2" groups="pdk" />
   <project path="external/zxing" name="platform/external/zxing" />
   <project path="frameworks/av" name="AOKP/frameworks_av" remote="aokp" revision="jb-mr2" groups="pdk" />
-  <project path="frameworks/base" name="AOKP/frameworks_base" remote="aokp" revision="jb-mr2" />
+  <project path="frameworks/base" name="KangProject/frameworks_base" remote="KangProject" revision="jb-mr2" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" />
@@ -400,9 +403,9 @@
   <project path="packages/apps/PhoneCommon" name="platform/packages/apps/PhoneCommon" />
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
-  <project path="packages/apps/ROMControl" name="AOKP/packages_apps_ROMControl" remote="aokp" revision="jb-mr2" />
+  <project path="packages/apps/ROMControl" name="KangProject/packages_apps_ROMControl" remote="KangProject" revision="jb-mr2" />
   <project path="packages/apps/QuickSearchBox" name="AOKP/packages_apps_QuickSearchBox" remote="aokp" revision="jb-mr2" />
-  <project path="packages/apps/Settings" name="AOKP/packages_apps_Settings" remote="aokp" revision="jb-mr2" />
+  <project path="packages/apps/Settings" name="KangProject/packages_apps_Settings" remote="KangProject" revision="jb-mr2" />
   <project path="packages/apps/SmartCardService" name="platform/packages/apps/SmartCardService" />
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" />
   <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" />
@@ -507,5 +510,5 @@
 
   <project path="packages/wallpapers/SwagPapers" name="AOKP/packages_wallpapers_SwagPapers_v2" remote="aokp" revision="jb-mr2" />
 
-  <project path="platform_manifest" name="AOKP/platform_manifest" remote="aokp" revision="jb-mr2" />
+  <project path="platform_manifest" name="KangProject/platform_manifest" remote="KangProject" revision="jb-mr2" />
 </manifest>
