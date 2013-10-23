@@ -18,7 +18,7 @@
            review="http://review.omapzoom.org/" />
 
   <remote  name="KangProject"
-            fetch="https://github.com/" />
+           fetch="https://github.com/" />
 
   <default revision="refs/tags/android-4.3.1_r1"
            remote="aosp"
